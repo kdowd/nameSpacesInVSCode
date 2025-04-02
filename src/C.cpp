@@ -1,10 +1,9 @@
 #include "headers/Utils.hpp"
 
-namespace kjd
-{
+using namespace std;
+using namespace kjd;
 
-    std::string C::getMessage() const
-    {
-        return "Hello from class C!";
-    }
+std::string C::getMessage() const
+{
+    return "Hello from class C!";
 }
