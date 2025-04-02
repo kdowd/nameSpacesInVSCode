@@ -8,6 +8,7 @@ namespace kjd
     class A
     {
     public:
+        A();
         std::string getMessage() const;
     };
 
