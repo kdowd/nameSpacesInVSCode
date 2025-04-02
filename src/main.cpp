@@ -1,6 +1,5 @@
 #include <iostream>
 #include "headers/Utils.hpp"
-#include "headers/Functions.hpp"
 
 using namespace std;
 
@@ -17,8 +16,6 @@ int main()
     C c;
 
     std::cout << c.getMessage() << "\n ";
-
-    Test2();
 
     std::getchar();
 }
